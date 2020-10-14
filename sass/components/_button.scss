@@ -1,0 +1,28 @@
+.btn {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 2rem 5rem;
+  margin: 0 1rem;
+
+  &--dark {
+    color: $color-primary-light;
+    background-color: $color-primary-dark;
+  }
+
+  &--light {
+    color: $color-primary-dark;
+    background-color: $color-primary-light;
+  }
+
+  &--alt {
+    color: $color-primary-dark;
+    box-shadow: inset 0 0 0 2px $color-primary-dark;
+  }
+}
+
+.first {
+  margin-left: 0;
+}

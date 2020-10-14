@@ -1,0 +1,60 @@
+.how-it-works {
+  padding: 7rem 0;
+
+  &__steps {
+    display: flex;
+    padding: 1rem;
+  }
+
+  &__step {
+    flex: 1;
+    text-align: center;
+    margin: 6rem $gutter-vertical;
+
+    img {
+      height: 24rem;
+      width: 30rem;
+      margin-bottom: 3rem;
+      background-repeat: no-repeat;
+      object-fit: scale-down;
+    }
+  }
+}
+
+.boxes {
+  padding: 7rem 0;
+
+  // .circle {
+  //   position: absolute;
+  //   height: 215px;
+  //   width: 215px;
+  //   border-radius: 100%;
+  //   background-color: $color-primary-light;
+  // }
+
+  &__cards {
+    margin-top: 7rem;
+    display: flex;
+  }
+
+  &__card {
+    flex: 1;
+    text-align: center;
+
+    &__image {
+      height: 300px;
+      width: 200px;
+      background: red;
+      background-repeat: no-repeat;
+      object-fit: contain;
+    }
+  }
+
+  &__header {
+    padding-top: 4rem;
+  }
+
+  &__price {
+    padding-top: 1rem;
+  }
+}

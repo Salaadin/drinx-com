@@ -1,0 +1,29 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  position: sticky;
+  background: none;
+  justify-content: space-between;
+  z-index: 1;
+  margin-top: 2rem;
+
+  &__logo {
+    height: 6rem;
+  }
+
+  &__contact-details {
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1rem 0;
+
+    a {
+      padding: 0 3rem;
+    }
+  }
+}
